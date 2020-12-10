@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    border-top: 40px solid white;
+    border-left: 40px solid white;
+    border-right: 40px solid white;
+    background-color: #003885;
+    min-height: 100vh;
+}
+

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +11,10 @@
 
 main {
     width: 100%;
-    min-height: calc(5 * (100vh - 42px));
-    border-top: 40px solid white;
-    border-left: 40px solid white;
-    border-right: 40px solid white;
+    min-height: calc(4 * (100vh - 42px));
+    border-top: 30px solid white;
+    border-left: 30px solid white;
+    border-right: 30px solid white;
     background-color: #003885;
     position: relative;
 }
@@ -19,7 +23,6 @@ main {
     width: 100%;
     position: sticky;
     top: 0;
-    height: calc(100vh - 50px);
     overflow: hidden;
     pointer-events: none;
     z-index: 2;
@@ -30,74 +33,10 @@ main {
     position: absolute;
 }
 
-.square {
-    height: 25vw;
+svg g {
+    transition: .8s;
 }
 
-.square-1{
-    top: 35%;
-    left: -3%;
-    transform: translate3d(0, 0, 0) rotate(5deg);
-}
-
-.square-2{
-    top: 30%;
-    left: 50%;
-    transform: translate3d(0, 0, 0) rotate(-5deg);
-}
-
-.square-3{
-    top: 21%;
-    left: 62%;
-    transform: translate3d(0, 0, 0) rotate(15deg);
-}
-
-.square-4{
-    top: 12%;
-    left: 90%;
-    transform: translate3d(0, 0, 0) rotate(-10deg);
-}
-
-.circle-1 , .circle-2 ,.circle-3 {
-    width: 1.5vw;
-}
-
-.circle-1 {
-    top: 70%;
-    left: 8.24%;
-    transform: translate3d(0,0,0);
-}
-
-.circle-2 {
-    top: 74%;
-    left: 5%;
-    transform: translate3d(0,0,0);
-}
-
-.circle-3 {
-    top: 65%;
-    left: 50%;
-    transform: translate3d(0,0,0);
-}
-
-.circle-4 {
-    top: 46%;
-    left: 73.5%;
-    transform: translate3d(0,0,0);
-}
-
-.circle-5 {
-    top: 49%;
-    left: 70.5%;
-    transform: translate3d(0,0,0);
-}
-
-.circle-6 {
-    width: 2.5vw;
-    top: 10%;
-    left: 93.5%;
-    transform: translate3d(0,0,0);
-}
 
 .content {
     width: 100%;
